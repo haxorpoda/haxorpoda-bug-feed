@@ -1,3 +1,7 @@
+data/img
+keys.js
+.DS_Store
+
 # Logs
 logs
 *.log
