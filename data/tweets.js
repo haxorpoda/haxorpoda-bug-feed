@@ -1,4 +1,4 @@
-[
+module.exports = [
   {
     "sendAfter": "2017-12-09 09:24",
     "status": "#insects #nature",
@@ -52,7 +52,8 @@
     "sendAfter": "2017-12-10 17:03",
     "status": "http://eos.naturkundemuseum-berlin.de/result?DrawerCode=MFNB_Col_Brentidae_Trachelizinae_D0045a #insects #nature",
     "alt_text": "Insect Image MFNB_Col_Brentidae_Trachelizinae_D0045a",
-    "img": "MFNB_Col_Brentidae_Trachelizinae_D0045a.105.png"
+    "img": "MFNB_Col_Brentidae_Trachelizinae_D0045a.105.png",
+    "tweetId": 939913461903056900
   },
   {
     "sendAfter": "2017-12-10 21:18",
@@ -66,4 +67,4 @@
     "alt_text": "Insect Image MFNB_Col_Chrysomelidae_Chrysomelinae_D031",
     "img": "MFNB_Col_Chrysomelidae_Chrysomelinae_D031.13.png"
   }
-]
+];

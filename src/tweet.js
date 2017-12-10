@@ -13,7 +13,7 @@ const now = moment(new Date());
 // Log the error to file, console and tweets.json.
 function onError(error) {
 	tweet.error = `${error}`;
-	fs.writeFileSync(config.tweetsPath, JSON.stringify(tweets, null, 2));
+	fs.writeFileSync(config.tweetsPath, `module.exports = ${JSON.stringify(tweets, null, 2)};`);
 	console.warn(`Could not tweet. ${error}`);
 	fs.appendFileSync(errorLogPath, `\n${now.format('YYYY-MM-DD HH:mm')} ${error}`);
 }
