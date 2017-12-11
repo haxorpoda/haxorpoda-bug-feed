@@ -27,7 +27,7 @@ shuffleArray(files);
 const newTweets = files
 	.filter(file => /\.png$/.test(file))
 	.filter(file => !tweetsIndex.has(file))
-	.slice(0,5)
+	.slice(0,10)
 	.map(file => {
 		console.log('file ', file);
 		if (counter === postsPerDay) {
